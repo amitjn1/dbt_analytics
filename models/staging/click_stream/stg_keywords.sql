@@ -1,2 +1,2 @@
 select *
-from raw.click_stream.keywords
+from {{ source('click_stream', 'keywords') }}

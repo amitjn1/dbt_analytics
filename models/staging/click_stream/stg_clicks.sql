@@ -1,2 +1,2 @@
 select *
-from raw.click_stream.clicks
+from {{ source('click_stream', 'clicks') }}
