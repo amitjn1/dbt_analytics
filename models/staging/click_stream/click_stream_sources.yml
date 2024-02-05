@@ -1,0 +1,18 @@
+version: 2
+
+sources:
+  - name: click_stream
+    description: We use the click_stream files to create a sample project to emulate what a production project might look like!
+    database: raw
+    schema: click_stream
+    tables:
+      - name: clicks
+        description: clicks desc
+      - name: custom_events
+        description: custom_events desc
+      - name: searches
+        description: searches desc
+      - name: groups
+        description: groups desc
+      - name: keywords
+        description: keywords desc
