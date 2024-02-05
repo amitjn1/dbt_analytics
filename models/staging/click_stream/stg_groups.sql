@@ -1,2 +1,2 @@
 select *
-from raw.click_stream.groups
+from {{ source('click_stream', 'groups') }}
